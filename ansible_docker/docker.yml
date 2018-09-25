@@ -1,0 +1,5 @@
+- name: Installation de docker
+  hosts: [VM3]
+
+  roles:
+    - docker
