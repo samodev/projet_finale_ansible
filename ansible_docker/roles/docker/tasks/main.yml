@@ -1,128 +1,69 @@
 ---
-- name: Disable pinned Docker version
-  file:
-    dest: "/etc/apt/preferences.d/docker-ce.pref"
-    state: "absent"
-  when: docker_remove_package or docker_version == "" or docker_version == "latest"
-- name: Pin Docker version
-  template:
-    src: "etc/apt/preferences.d/docker-ce.pref.j2"
-    dest: "/etc/apt/preferences.d/docker-ce.pref"
-    owner: "root"
-    group: "root"
-    mode: "0644"
-  when: not docker_remove_package and (docker_version and docker_version != "latest")
-- name: Install Docker's dependencies
-  apt:
-    name: "{{ item }}"
-    update_cache: True
-    cache_valid_time: "{{ docker_apt_cache_time }}"
-  loop: "{{ docker_package_dependencies }}"
-- name: Add Docker's GPG key
-  apt_key:
-    id: "{{ docker_apt_key_id }}"
-    url: "{{ docker_apt_key_server }}"
-- name: Configure upstream APT repository
-  apt_repository:
-    repo: "{{ docker_apt_repository }}"
-- name: Remove Docker
-  apt:
-    name: "docker-{{ docker_edition }}"
-    state: "absent"
-  when: docker_remove_package
+- name: Set distribution facts
+  set_fact:
+    _docker_os_dist: "{{ ansible_distribution }}"
+    _docker_os_dist_release: "{{ ansible_distribution_release }}"
+    _docker_os_dist_major_version: "{{ ansible_distribution_major_version }}"
+    _docker_os_dist_check: yes
+  tags: ["install", "configure"]
+
+- name: Reinterpret distribution facts for Linux Mint 18
+  set_fact:
+    _docker_os_dist: "Ubuntu"
+    _docker_os_dist_release: "xenial"
+    _docker_os_dist_major_version: "16"
+  when:
+    _docker_os_dist == "Linux Mint" and
+    _docker_os_dist_major_version == "18"
+  tags: ["install", "configure"]
+
+# https://wiki.ubuntu.com/SystemdForUpstartUsers
+# Important! systemd is only fully supported in Ubuntu 15.04 and later releases
+- name: Determine usage of systemd
+  shell: "ps -p1 | grep systemd 1>/dev/null && echo systemd || echo upstart"
+  become: true
+  changed_when: no
+  register: _determine_systemd_usage
+
+- name: Set fact to indicate systemd is not used
+  set_fact:
+    _docker_systemd_used: "{{ _determine_systemd_usage is defined and _determine_systemd_usage.stdout == 'systemd' }}"
+
+- name: Compatibility and distribution checks
+  include_tasks: checks.yml
+  tags: ["install", "configure"]
+
+- name: Setup Docker package repositories
+  include_tasks: setup-repository.yml
+  tags: ["install"]
+
+- name: Remove Docker versions before Docker CE
+  include_tasks: remove-pre-docker-ce.yml
+  when: docker_remove_pre_ce | bool
+  tags: ["install"]
+
 - name: Install Docker
-  apt:
-    name: "docker-{{ docker_edition }}"
-    update_cache: True
-    cache_valid_time: "{{ docker_apt_cache_time }}"
-    state: "latest"
-  when: not docker_remove_package
-- name: Remove Upstart config file
-  file:
-    path: "/etc/default/docker"
-    state: "absent"
-- name: Ensure systemd directory exists
-  file:
-    path: "/etc/systemd/system"
-    state: "directory"
-    owner: "root"
-    group: "root"
-    mode: "0755"
-- name: Remove systemd unit file
-  file:
-    path: "/etc/systemd/system/docker.service"
-    state: "absent"
-  when: docker_remove_package
-- name: Generate systemd unit file
-  template:
-    src: "etc/systemd/system/docker.service.j2"
-    dest: "/etc/systemd/system/docker.service"
-    owner: "root"
-    group: "root"
-    mode: "0644"
-  register: docker_register_systemd_service
-  when: not docker_remove_package
-#- name: Reload systemd daemon
-#  systemd:
-#    daemon_reload: True
-#  notify: ["Restart Docker"]
-#  when: not docker_remove_package or docker_register_systemd_service is changed
-- name: Add user(s) to "docker" group
-  user:
-    name: "{{ item }}"
-    groups: "docker"
-    append: True
-  loop: "{{ docker_users }}"
-  when: not docker_remove_package and docker_users
-- name: Install Python for managing Docker login credentials
-  apt:
-    name: "python"
-    update_cache: True
-    cache_valid_time: "{{ docker_apt_cache_time }}"
-  when: not docker_remove_package and docker_registries
-- name: Install docker-py for managing Docker login credentials
-  pip:
-    name: "docker-py"
-  when: not docker_remove_package and docker_registries
-- name: Manage login credentials for 1 or more Docker registries
-  docker_login:
-    registry_url: "{{ item.registry_url | default(omit) }}"
-    username: "{{ item.username }}"
-    password: "{{ item.password }}"
-    email: "{{ item.email | default(omit)}}"
-    reauthorize: "{{ item.reauthorize | default(omit) }}"
-    state: "{{ item.state | default(omit) }}"
-  loop: "{{ docker_registries }}"
-  when: not docker_remove_package and docker_registries
-  become_user: "{{ item.system_user | default(omit) }}"
-- name: Remove Docker Compose
-  file:
-    path: "/usr/local/bin/docker-compose"
-    state: "absent"
-  when: docker_remove_package
-- name: Install Docker Compose
-  get_url:
-    url: "https://github.com/docker/compose/releases/download/{{ docker_compose_version }}/docker-compose-Linux-x86_64"
-    dest: "/usr/local/bin/docker-compose"
-    force: True
-    owner: "root"
-    group: "root"
-    mode: "0755"
-  when: not docker_remove_package and docker_install_docker_compose
-- name: Remove cron tasks for Docker commands
-  cron:
-    name: "{{ item.name }}"
-    state: "absent"
-  loop: "{{ docker_cron_tasks }}"
-  when: docker_remove_package and docker_cron_tasks
-- name: Create cron tasks for Docker commands
-  cron:
-    name: "{{ item.name }}"
-    job: "{{ item.job }}"
-    minute: "{{ item.schedule[0] }}"
-    hour: "{{ item.schedule[1] }}"
-    day: "{{ item.schedule[2] }}"
-    month: "{{ item.schedule[3] }}"
-    weekday: "{{ item.schedule[4] }}"
-  loop: "{{ docker_cron_tasks }}"
-  when: not docker_remove_package and docker_cron_tasks
+  include_tasks: install-docker.yml
+  tags: ["install"]
+
+- name: Configure audit logging
+  include_tasks: setup-audit.yml
+  tags: ["configure"]
+
+- name: Apply workarounds for bugs and/or tweaks
+  include_tasks: bug-tweaks.yml
+  tags: ["configure"]
+
+- name: Configure systemd service
+  include_tasks: configure-systemd.yml
+  when: _docker_systemd_used | bool
+  tags: ["configure"]
+
+- name: Configure non-systemd service
+  include_tasks: configure-non-systemd.yml
+  when: _docker_systemd_used | bool == false
+  tags: ["configure"]
+
+- name: Configure Docker
+  include_tasks: configure-docker.yml
+  tags: ["configure"]

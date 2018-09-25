@@ -1,34 +1,34 @@
 ---
+# defaults file for ansible-role-docker-ce
 
-docker_remove_package: False
-
-docker_edition: "ce"
-docker_channel: "stable"
-docker_version: "latest"
-
-docker_install_docker_compose: True
-docker_compose_version: "1.22.0"
-
-docker_users: []
-docker_registries: []
-
-docker_daemon_options: []
-docker_daemon_environment: []
-
-docker_cron_tasks:
-  - job: docker system prune -f &> /dev/null
-    name: "Docker clean up"
-    schedule: ["0", "0", "*", "*", "0"]
-
-
-docker_package_dependencies:
-  - "apt-transport-https"
-  - "ca-certificates"
-  - "software-properties-common"
-  - "gnupg2"
-  - "cron"
-
-docker_apt_key_id: "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
-docker_apt_key_server: "https://download.docker.com/linux/{{ ansible_distribution | lower }}/gpg"
-docker_apt_repository: "deb [arch=amd64] https://download.docker.com/linux/{{ ansible_distribution | lower }} {{ ansible_distribution_release }} {{ docker_channel }}"
-docker_apt_cache_time: 86400
+# Daemon configuration (https://docs.docker.com/engine/reference/commandline/dockerd/)
+# Example:
+# docker_daemon_config:
+#   experimental: true
+docker_daemon_config: {}
+# Docker daemon options
+#  Docker daemon is configured with '-H fd://' by default in Ubuntu/Debian which cause problems.
+#  https://github.com/moby/moby/issues/25471
+docker_daemon_opts: ''
+# Map of environment variables to Docker daemon
+docker_daemon_envs: {}
+# List of additional service configuration options for systemd
+# Important! Configuring this can cause Docker to not start at all.
+docker_systemd_service_config: []
+# To compensate for situation where Docker daemon fails because of usermod incompatibility.
+# Ensures that 'dockremap:500000:65536' is present in /etc/subuid and /etc/subgid.
+# Note! If userns-remap is set to 'default' in docker_daemon_config this config will be unnecessary.
+docker_bug_usermod: false
+# Enable auditing of Docker related files and directories
+docker_enable_audit: false
+# Enable Docker CE Edge
+docker_enable_ce_edge: false
+# Set `MountFlags=slave`
+#  https://github.com/haxorof/ansible-role-docker-ce/issues/34
+docker_enable_mount_flag_fix: yes
+# Always ensure latest version of Docker CE
+docker_latest_version: true
+# Docker package to install. Change this if you want a specific version of Docker
+docker_pkg_name: docker-ce
+# If below variable is set to true it will remove older Docker installation before Docker CE.
+docker_remove_pre_ce: false
