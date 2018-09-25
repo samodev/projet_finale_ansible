@@ -84,11 +84,11 @@ docker_cron_tasks:
 # to modify this list, but if Docker's dependencies change it can be updated
 # here without having to fork the role.
 docker_package_dependencies:
-  - "apt-transport-https"
-  - "ca-certificates"
-  - "software-properties-common"
-  - "gnupg2"
-  - "cron"
+  - apt-transport-https
+  - ca-certificates
+  - software-properties-common
+  - gnupg2
+  - cron
 
 # The Docker GPG key id used to sign the Docker package.
 docker_apt_key_id: "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
