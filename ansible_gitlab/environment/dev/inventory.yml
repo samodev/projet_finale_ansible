@@ -1,2 +1,2 @@
 [VM1]
-10.0.2.5
+10.0.2.5 ansible_connection=ssh ansible_user=stage
