@@ -34,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile_ansible_gitlab" value="226" />
+          <entry key="Jenkinsfile_ansible_gitlab" value="244" />
           <entry key="yml" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="226" />
+          <entry key="PLAIN_TEXT" value="244" />
           <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -301,7 +301,7 @@
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
         </state>
       </provider>
     </entry>
