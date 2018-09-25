@@ -34,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile_ansible_gitlab" value="244" />
-          <entry key="yml" value="124" />
+          <entry key="Jenkinsfile_ansible_gitlab" value="246" />
+          <entry key="yml" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="244" />
-          <entry key="YAML" value="124" />
+          <entry key="PLAIN_TEXT" value="246" />
+          <entry key="YAML" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -294,14 +294,14 @@
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
         </state>
       </provider>
     </entry>
