@@ -4,8 +4,7 @@
   with_items:
     - unzip
     - net-tools
-    - java-1.8.0-openjdk
-    - java-1.8.0-openjdk-devel
+    - openjdk-8*
   tags: artifactory
 
 - name: artifactory | Download artifactory zip
