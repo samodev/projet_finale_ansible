@@ -27,7 +27,7 @@
 
 - name: Set fact to indicate systemd is not used
   set_fact:
-    _docker_systemd_used: "{{ _determine_systemd_usage is defined and _determine_systemd_usage.stdout == 'systemd' }}"
+   _docker_systemd_used: "{{ _determine_systemd_usage is defined and _determine_systemd_usage.stdout == 'systemd' }}"
 
 - name: Compatibility and distribution checks
   include_tasks: checks.yml

@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible_docker/docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/defaults/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/files/etc/audit/rules.d/docker.rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/handlers/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/meta/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/bug-tweaks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/compatibility-checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-non-systemd.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-systemd.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/distribution-checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/install-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/remove-pre-docker-ce.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/setup-audit.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/setup-repository.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/templates/docker-envs.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/templates/drop-ins/default.conf.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/Vagrantfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ansible.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ci-test.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ci-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/files/daemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/hosts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/prepare.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/prepare_storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_adv.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_file.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_defaults.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_issue_42.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_nothing.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_old_version.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/vagrant_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/vars/main.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,27 +89,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -183,7 +120,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ansible_docker" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -227,11 +164,6 @@
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -241,7 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537882931819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537883007724" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -285,9 +217,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="48" width="1004" height="666" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25627616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25627616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +232,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -413,8 +344,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,12 +358,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
