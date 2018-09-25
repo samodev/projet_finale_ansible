@@ -1,0 +1,15 @@
+pipeline {
+	agent any
+	stages {
+		stage('Git Clone') {
+			steps {
+				git ([url: "https://github.com/samodev/Projet_finale.git", branch: 'master' ])
+			}
+		}
+		stage('ansible-playbook') {
+			steps {
+				ansiblePlaybook credentialsId: 'cb4c6396-f283-4a3e-94c5-84e64b86f148', playbook: 'ansible_artifactory/artifactory.yml'
+			}
+		}
+	}
+}
