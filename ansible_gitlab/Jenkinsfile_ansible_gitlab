@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('ansible-playbook') {
 			steps {
-				sh "ansible-playbook ansible_gitlab/installGitlab.yml -vvvv"
+				sh "ansible-playbook ansible_gitlab/installGitlab.yml"
 			}
 		}
 	}
