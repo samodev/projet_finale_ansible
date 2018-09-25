@@ -9,7 +9,7 @@ pipeline {
 
 		stage('ansible-playbook') {
 			steps {
-				sh "ansible-playbook ansible_gitlab/installGitlab.yml -u stage"
+				sh "ansible-playbook ansible_gitlab/installGitlab.yml -u stage -i environment/dev/inventory.yml"
 			}
 		}
 	}
