@@ -25,13 +25,13 @@
   changed_when: no
   register: _determine_systemd_usage
 
-- name: Set fact to indicate systemd is not used
-  set_fact:
-    _docker_systemd_used: "{{ _determine_systemd_usage is defined and _determine_systemd_usage.stdout == 'systemd' }}"
+#- name: Set fact to indicate systemd is not used
+#  set_fact:
+#    _docker_systemd_used: "{{ _determine_systemd_usage is defined and _determine_systemd_usage.stdout == 'systemd' }}"
 
-#- name: compatibility and distribution checks
-#  include_tasks: checks.yml
-#  tags: ["install", "configure"]
+- name: compatibility and distribution checks
+  include_tasks: checks.yml
+  tags: ["install", "configure"]
 
 - name: Setup Docker package repositories
   include_tasks: setup-repository.yml
