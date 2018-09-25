@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
+    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ansible_docker/docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/files/etc/audit/rules.d/docker.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/handlers/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/bug-tweaks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/checks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/compatibility-checks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-non-systemd.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/configure-systemd.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/distribution-checks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/install-docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/remove-pre-docker-ce.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/setup-audit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tasks/setup-repository.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/templates/docker-envs.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/templates/drop-ins/default.conf.j2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ansible.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ci-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/ci-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/files/daemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/prepare.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/prepare_storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_adv.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_file.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_config_storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_defaults.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_issue_42.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_nothing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/test_old_version.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/tests/vagrant_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/vars/main.yml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,32 +65,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Jenkinsfile_ansible_artifactory" value="1" />
+          <entry key="Jenkinsfile_ansible_artifactory" value="2" />
+          <entry key="Jenkinsfile_ansible_docker" value="1" />
           <entry key="Jenkinsfile_ansible_gitlab" value="1" />
           <entry key="artifactory" value="1" />
           <entry key="j2" value="1" />
           <entry key="md" value="1" />
-          <entry key="yml" value="14" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="YAML" value="14" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Jenkinsfile_ansible_artifactory" value="28" />
+          <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="222" />
+          <entry key="yml" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="363" />
-          <entry key="YAML" value="222" />
+          <entry key="PLAIN_TEXT" value="388" />
+          <entry key="YAML" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -87,18 +134,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="47" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="75" />
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,19 +180,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ansible_docker" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,12 +191,14 @@
         <option value="$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tests/test.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml" />
         <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/files/artifactory" />
         <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
         <option value="$PROJECT_DIR$/ansible_artifactory/artifactory.yml" />
         <option value="$PROJECT_DIR$/ansible_artifactory/Jenkinsfile_ansible_artifactory" />
         <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/artifactoryInstallation.yml" />
+        <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml" />
+        <option value="$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker" />
+        <option value="$PROJECT_DIR$/ansible_docker/docker.yml" />
       </list>
     </option>
   </component>
@@ -159,6 +208,7 @@
     <option name="width" value="1004" />
     <option name="height" value="666" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -180,36 +230,7 @@
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="artifactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="artifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="vars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,8 +241,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537881786378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537882482858" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible_docker" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -334,9 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/files/artifactory">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -375,8 +398,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="100" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_docker/vars/main.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_artifactory">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="47" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="75" />
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
