@@ -9,7 +9,7 @@ pipeline {
 
 		stage('ansible-playbook') {
 			steps {
-				sh "su stage && ansible-playbook ansible_gitlab/installGitlab.yml"
+				sh "ansible-playbook ansible_gitlab/installGitlab.yml"
 			}
 		}
 	}
