@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 10.0.2.5
 
   vars:
     gitlab_restart_handler_failed_when: false
