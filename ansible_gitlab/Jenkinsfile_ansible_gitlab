@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('ansible-playbook') {
 			steps {
-				sh "ansible-playbook ansible_gitlab/installGitlab.yml -u stage --private-key /home/stage/.ssh/id_rsa"
+				sh "ansible-playbook ansible_gitlab/installGitlab.yml"
 			}
 		}
 	}
