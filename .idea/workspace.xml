@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Jenkinsfile_ansible_gitlab" value="157" />
-          <entry key="yml" value="101" />
+          <entry key="yml" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="157" />
-          <entry key="YAML" value="101" />
+          <entry key="YAML" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,7 +51,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -127,9 +126,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tests/test.yml" />
-        <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
+        <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
       </list>
     </option>
   </component>
@@ -288,10 +287,10 @@
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/vars/Debian.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
+    <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="165">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -302,10 +301,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
+    <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
