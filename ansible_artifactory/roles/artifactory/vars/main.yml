@@ -2,4 +2,4 @@
 artifactory_version: artifactory-oss-6.3.3
 artifactory_dir: /opt/{{ artifactory_version }}
 artifactory_zip_file: artifactory-oss-6.3.3.zip
-artifactory_zip_url: http://dl.bintray.com/content/jfrog/artifactory/jfrog-"{{ artifactory_zip_file }}"
+artifactory_zip_url: http://dl.bintray.com/content/jfrog/artifactory/jfrog-{{ artifactory_zip_file }}
