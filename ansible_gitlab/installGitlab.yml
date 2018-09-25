@@ -1,6 +1,6 @@
 ---
 - name: Installer GitLab
-  hosts: 10.0.2.5
+  hosts: VM1
   remote_user: stage
   ##remote_user: stage
   become: true
