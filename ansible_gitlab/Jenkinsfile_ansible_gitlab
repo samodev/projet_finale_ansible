@@ -6,7 +6,11 @@ pipeline {
 				git ([url: "https://github.com/samodev/Projet_finale.git", branch: 'master' ])
 			}
 		}
-
+        stage('copy key') {
+            steps {
+                sh "ssh-copy-id -i /home/stage/.ssh/id_rsa stage@10.0.2.5"
+            }
+        }
 		stage('ansible-playbook') {
 			steps {
 				sh "ansible-playbook ansible_gitlab/installGitlab.yml"
