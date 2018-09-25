@@ -8,7 +8,7 @@ pipeline {
 		}
         stage('copy key') {
             steps {
-                sh "ssh-copy-id -i /home/stage/.ssh/id_rsa stage@10.0.2.5"
+                sh "sudo ssh-copy-id -i /home/stage/.ssh/id_rsa stage@10.0.2.5"
             }
         }
 		stage('ansible-playbook') {
