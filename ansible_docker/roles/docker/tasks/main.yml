@@ -62,11 +62,11 @@
     mode: "0644"
   register: docker_register_systemd_service
   when: not docker_remove_package
-- name: Reload systemd daemon
-  systemd:
-    daemon_reload: True
-  notify: ["Restart Docker"]
-  when: not docker_remove_package or docker_register_systemd_service is changed
+#- name: Reload systemd daemon
+#  systemd:
+#    daemon_reload: True
+#  notify: ["Restart Docker"]
+#  when: not docker_remove_package or docker_register_systemd_service is changed
 - name: Add user(s) to "docker" group
   user:
     name: "{{ item }}"
