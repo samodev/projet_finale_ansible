@@ -7,23 +7,23 @@
     _docker_os_dist_check: yes
   tags: ["install", "configure"]
 
-- name: Reinterpret distribution facts for Linux Mint 18
-  set_fact:
-    _docker_os_dist: "Ubuntu"
-    _docker_os_dist_release: "xenial"
-    _docker_os_dist_major_version: "16"
-  when:
-    _docker_os_dist == "Linux Mint" and
-    _docker_os_dist_major_version == "18"
-  tags: ["install", "configure"]
+#- name: Reinterpret distribution facts for Linux Mint 18
+#  set_fact:
+#    _docker_os_dist: "Ubuntu"
+#    _docker_os_dist_release: "xenial"
+#    _docker_os_dist_major_version: "16"
+#  when:
+#    _docker_os_dist == "Linux Mint" and
+#    _docker_os_dist_major_version == "18"
+#  tags: ["install", "configure"]
 
 # https://wiki.ubuntu.com/SystemdForUpstartUsers
 # Important! systemd is only fully supported in Ubuntu 15.04 and later releases
-#- name: Determine usage of systemd
-#  shell: "ps -p1 | grep systemd 1>/dev/null && echo systemd || echo upstart"
-#  become: true
-#  changed_when: no
-#  register: _determine_systemd_usage
+- name: Determine usage of systemd
+  shell: "ps -p1 | grep systemd 1>/dev/null && echo systemd || echo upstart"
+  become: true
+  changed_when: no
+  register: _determine_systemd_usage
 
 - name: Set fact to indicate systemd is not used
   set_fact:
