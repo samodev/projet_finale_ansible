@@ -1,6 +1,0 @@
----
-- hosts: test-host
-  vars:
-    docker_pkg_name: docker-ce-17.06.0.ce-1.el7.centos
-  roles:
-    - haxorof.docker-ce

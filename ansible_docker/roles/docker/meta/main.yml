@@ -1,32 +1,24 @@
+---
+
 galaxy_info:
-  author: Bjorn Oscarsson
-  description: "Installs and configures Docker Community Edition (CE)"
-  min_ansible_version: 2.4
-  license: MIT
+  role_name: "docker"
+  author: "Nick Janetakis"
+  description: "Install Docker and optionally Docker Compose."
+  license: "license (MIT)"
+  min_ansible_version: 2.5
+
   platforms:
-  - name: Fedora
-    versions:
-      - 24
-      - 25
-      - 26
-
-  - name: EL
-    versions:
-      - 7
-
-  - name: Debian
-    versions:
-      - jessie
-      - stretch
-
-  - name: Ubuntu
-    versions:
-      - trusty
-      - xenial
+    - name: "Ubuntu"
+      versions:
+        - "xenial"
+        - "bionic"
+    - name: "Debian"
+      versions:
+        - "jessie"
+        - "stretch"
 
   galaxy_tags:
-    - docker
-    - containers
-    - system
+    - "packaging"
+    - "system"
 
 dependencies: []
