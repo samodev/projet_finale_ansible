@@ -39,13 +39,13 @@
           <entry key="Jenkinsfile_ansible_artifactory" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="203" />
+          <entry key="yml" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="360" />
-          <entry key="YAML" value="203" />
+          <entry key="YAML" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_artifactory/artifactory.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -144,12 +144,12 @@
         <option value="$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tests/test.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/artifactory.yml" />
         <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml" />
         <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/artifactoryInstallation.yml" />
         <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/files/artifactory" />
         <option value="$PROJECT_DIR$/ansible_artifactory/Jenkinsfile_ansible_artifactory" />
         <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
+        <option value="$PROJECT_DIR$/ansible_artifactory/artifactory.yml" />
       </list>
     </option>
   </component>
@@ -191,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537880362774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537880366671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -329,13 +329,6 @@
         <state relative-caret-position="-585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/artifactory.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_artifactory/Jenkinsfile_ansible_artifactory">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -347,6 +340,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_artifactory/artifactory.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>

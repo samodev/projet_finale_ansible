@@ -1,6 +1,6 @@
 ---
 - name: artifactory | Install dependencies
-  yum: pkg={{ item }} state=installed
+  apt: pkg={{ item }} state=installed
   with_items:
     - unzip
     - net-tools
