@@ -6,8 +6,19 @@
     name: apache2
     state: latest
 
+- name: enable module proxy on apache
+  command: a2enmod proxy proxy_http
+
 - name: start service httpd - if install succeeded
   service:
     name: apache2
     state: started
+
+  name: ajout du template
+  template:
+    src: artifactory.conf.j2
+    dest: /etc/apache2/sites-available/artifactory.conf
+
+- name: activation du template artifactory et redémarrage du service
+  command: a2ensite artifactory.conf && service apache2 reload
 ...

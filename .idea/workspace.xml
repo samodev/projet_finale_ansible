@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
+    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +29,15 @@
           <entry key="Jenkinsfile_ansible_docker" value="2" />
           <entry key="Jenkinsfile_ansible_gitlab" value="1" />
           <entry key="artifactory" value="1" />
-          <entry key="j2" value="1" />
+          <entry key="j2" value="2" />
           <entry key="md" value="1" />
-          <entry key="yml" value="31" />
+          <entry key="yml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="YAML" value="31" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="YAML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -42,13 +46,14 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="1006" />
+          <entry key="j2" value="74" />
+          <entry key="yml" value="1053" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="402" />
-          <entry key="YAML" value="1006" />
+          <entry key="PLAIN_TEXT" value="476" />
+          <entry key="YAML" value="1053" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,11 +61,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -75,6 +98,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/terraform_ansible_apache/roles/apache/template</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,6 +129,8 @@
         <option value="$PROJECT_DIR$/ansible_tomcat/Jenkinsfile_ansible_artifactory" />
         <option value="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2" />
       </list>
     </option>
   </component>
@@ -123,54 +156,36 @@
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="artifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
               <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
+              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537956081117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537962967448" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -229,7 +244,7 @@
     <frame x="10" y="48" width="1004" height="666" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -243,7 +258,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -402,6 +417,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
