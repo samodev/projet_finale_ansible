@@ -12,7 +12,7 @@
     <session id="-1543840895">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -44,13 +44,13 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="j2" value="204" />
+          <entry key="j2" value="268" />
           <entry key="yml" value="1347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="654" />
+          <entry key="PLAIN_TEXT" value="718" />
           <entry key="YAML" value="1347" />
         </counts>
       </usages-collector>
@@ -103,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -156,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="48" />
     <option name="width" value="1004" />
@@ -224,8 +224,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537969123131" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537969740841" />
+    <property name="last_opened_file_path" value="$USER_HOME$/orange_mecanique_app" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -465,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
