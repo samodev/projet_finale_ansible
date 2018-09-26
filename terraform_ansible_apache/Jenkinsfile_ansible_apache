@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('ansible-playbook') {
 			steps {
-				sh "sudo su && ansible-playbook terraform_ansible_apache/installApache.yml"
+				sh "sudo su && ansible-playbook installApache.yml"
 			}
 		}	
 	}
