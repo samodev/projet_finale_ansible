@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/files/etc/audit/rules.d/docker.rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/bug-tweaks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/compatibility-checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/configure-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/configure-non-systemd.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/configure-systemd.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/distribution-checks.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/install-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/remove-pre-docker-ce.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/setup-audit.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/setup-repository.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/templates/docker-envs.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/templates/drop-ins/default.conf.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/Vagrantfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/ansible.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/ci-test.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/ci-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/files/daemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/hosts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/prepare.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/prepare_storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_config_adv.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_config_file.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_config_storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_defaults.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_issue_42.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_nothing.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/test_old_version.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tests/vagrant_config.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +42,13 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="727" />
+          <entry key="yml" value="786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="388" />
-          <entry key="YAML" value="727" />
+          <entry key="YAML" value="786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -127,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -431,7 +392,7 @@
     <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
