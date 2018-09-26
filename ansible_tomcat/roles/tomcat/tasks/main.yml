@@ -24,7 +24,7 @@
   notify: restart tomcat
 
 - name: Install Tomcat init script
-  copy: src=tomcat-initscript.sh dest=/etc/init.d/tomcat mode=0755
+  copy: src=tomcat-initscript.sh dest=/etc/systemd/system/tomcat mode=0755
   
 - name: changing  access permissions for  tomcat
   shell: chmod -R 777 /opt/apache-tomcat-7.0.61/
