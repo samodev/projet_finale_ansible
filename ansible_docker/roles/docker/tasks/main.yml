@@ -27,17 +27,17 @@
     name: ubuntu
 
 - name: Creer conteneur docker-ci
-    docker_container:
-      name: docker-ci
-      image: ubuntu
-      state: started
-      volumes:
-        - /data-docker-ci
+  docker_container:
+    name: docker-ci
+    image: ubuntu
+    state: started
+    volumes:
+      - /data-docker-ci
 
 - name: Creer conteneur docker-cd
-    docker_container:
-      name: docker-cd
-      image: ubuntu
-      state: started
-      volumes:
-        - /data-docker-cd
+  docker_container:
+    name: docker-cd
+    image: ubuntu
+    state: started
+    volumes:
+      - /data-docker-cd
