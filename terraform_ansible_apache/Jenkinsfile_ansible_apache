@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('ansible-playbook') {
 			steps {
-				sh "sudo su && ansible-playbook installApache.yml"
+				ansiblePlaybook credentialsId: 'cb4c6396-f283-4a3e-94c5-84e64b86f148', playbook: 'terraform_ansible_apache/installApache.yml'
 			}
 		}	
 	}
