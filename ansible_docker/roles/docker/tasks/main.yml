@@ -25,6 +25,8 @@
 - name: Telecharger une image Ubuntu pour docker
   docker_image:
     name: ubuntu
+    tag: 1.0
+    push: yes
 
 - name: Creer conteneur docker-ci
   docker_container:
