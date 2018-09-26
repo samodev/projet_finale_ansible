@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
+    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +44,13 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="964" />
+          <entry key="yml" value="980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="402" />
-          <entry key="YAML" value="964" />
+          <entry key="YAML" value="980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -100,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="16" column="3" selection-start-line="14" selection-start-column="1" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -160,8 +162,8 @@
         <option value="$PROJECT_DIR$/ansible_docker/roles/docker/vars/main.yml" />
         <option value="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_tomcat/tomcat.yml" />
-        <option value="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_tomcat/Jenkinsfile_ansible_artifactory" />
+        <option value="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" />
       </list>
     </option>
   </component>
@@ -246,7 +248,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537954698147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537955404439" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -293,7 +295,7 @@
     <frame x="10" y="48" width="1004" height="666" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +309,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="16" column="3" selection-start-line="14" selection-start-column="1" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>

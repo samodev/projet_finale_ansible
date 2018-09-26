@@ -12,9 +12,9 @@
 - name: Symlink install directory
   file: src=/opt/apache-tomcat-7.0.61 path=/usr/local/tomcat state=link
   
-- name: allow jenkin user to access tomcat
-  file: path=/opt/apache-tomcat-7.0.61/work become=true owner=jenkins group=jenkins mode=777 recurse=yes
-  
+#- name: allow jenkin user to access tomcat
+#  file: path=/opt/apache-tomcat-7.0.61/work owner=jenkins group=jenkins mode=777 recurse=yes
+#  
 - name: Install elinks CMD browser
   yum: name=elinks state=present
 
