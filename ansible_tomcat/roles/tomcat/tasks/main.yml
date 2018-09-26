@@ -14,9 +14,9 @@
   
 #- name: allow jenkin user to access tomcat
 #  file: path=/opt/apache-tomcat-7.0.61/work owner=jenkins group=jenkins mode=777 recurse=yes
-#  
+#
 - name: Install elinks CMD browser
-  yum: name=elinks state=present
+  apt: name=elinks state=present
 
 
 - name: Configure Tomcat server
