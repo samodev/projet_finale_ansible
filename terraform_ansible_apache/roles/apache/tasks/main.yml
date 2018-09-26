@@ -20,5 +20,9 @@
     dest: /etc/apache2/sites-available/artifactory.conf
 
 - name: activation du template artifactory et redémarrage du service
-  command: a2ensite artifactory.conf && sudo service apache2 reload
+  command: a2ensite artifactory.conf
+
+- name: reload le service apache
+  command: service apache2 reload
+  become: true
 ...
