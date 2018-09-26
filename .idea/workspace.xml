@@ -42,13 +42,13 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="yml" value="817" />
+          <entry key="yml" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="388" />
-          <entry key="YAML" value="817" />
+          <entry key="YAML" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />

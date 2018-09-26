@@ -24,7 +24,7 @@
 
 - name: Telecharger une image Ubuntu pour docker
     docker_image:
-      name: ubuntu
+    name: ubuntu
 
 - name: Creer conteneur docker-ci
     docker_container:
