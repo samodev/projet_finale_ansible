@@ -1,0 +1,11 @@
+---
+- name: Installer apache
+  hosts: 127.0.0.1
+  remote_user: root
+  ##remote_user: stage
+  become: true
+  become_user: root  
+
+  roles:
+    - apache
+...

@@ -1,0 +1,5 @@
+- name: Installation de artifactory
+  hosts: [VM2]
+
+  roles:
+    - artifactory

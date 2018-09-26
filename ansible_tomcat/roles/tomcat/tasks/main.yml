@@ -1,0 +1,37 @@
+---
+- name: Install Java 1.8
+  apt: name=openjdk-8* state=present
+
+- name: Download Tomcat
+  get_url: url=http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.61/bin/apache-tomcat-7.0.61.tar.gz dest=/opt/apache-tomcat-7.0.61.tar.gz timeout=300
+  
+
+- name: Extract archive
+  command: chdir=/usr/share /bin/tar xvf /opt/apache-tomcat-7.0.61.tar.gz -C /opt/ creates=/opt/apache-tomcat-7.0.61
+
+- name: Symlink install directory
+  file: src=/opt/apache-tomcat-7.0.61 path=/usr/local/tomcat state=link
+  
+#- name: allow jenkin user to access tomcat
+#  file: path=/opt/apache-tomcat-7.0.61/work owner=jenkins group=jenkins mode=777 recurse=yes
+#
+- name: Install elinks CMD browser
+  apt: name=elinks state=present
+
+
+- name: Configure Tomcat server
+  template: src=server.xml dest=/usr/local/tomcat/conf/
+  notify: restart tomcat
+
+- name: Install Tomcat init script
+  copy: src=tomcat-initscript.sh dest=/etc/systemd/system/tomcat mode=0755
+  
+- name: changing  access permissions for  tomcat
+  shell: chmod -R 777 /opt/apache-tomcat-7.0.61/
+
+#- name: Start Tomcat
+#  service: name=tomcat state=started enabled=yes
+  
+
+#- name: wait for tomcat to start
+#  wait_for: port={{http_port}}

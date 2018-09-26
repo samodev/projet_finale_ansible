@@ -1,0 +1,15 @@
+pipeline {
+	agent any
+	stages {
+		stage('Git Clone') {
+			steps {
+				git ([url: "https://github.com/samodev/projet_finale_ansible.git", branch: 'master' ])
+			}
+		}
+		stage('ansible-playbook') {
+			steps {
+				ansiblePlaybook become: true, credentialsId: 'cb4c6396-f283-4a3e-94c5-84e64b86f148', playbook: 'ansible_tomcat/tomcat.yml'
+			}
+		}
+	}
+}

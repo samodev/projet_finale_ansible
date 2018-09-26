@@ -1,0 +1,7 @@
+---
+- name: Installer GitLab
+  hosts: 10.0.2.5
+
+  roles:
+    - gitlab
+...
