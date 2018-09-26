@@ -19,19 +19,19 @@
   - software-properties-common
   - docker-ce
 
-#- name: donner le droit sudo a l'utilisateurs stage pour executer docker
-#  command: sudo usermod -aG docker stage
+- name: donner le droit sudo a l'utilisateurs stage pour executer docker
+  command: sudo usermod -aG docker stage
 
-#- name: Telecharger une image Ubuntu pour docker
-#  docker_image:
-#    name: ubuntu
-#    tag: 1.0
-#    push: yes
+- name: Telecharger une image Ubuntu pour docker
+  docker_image:
+    name: ubuntu
+    tag: 1.0
+    push: yes
 
 - name: Creer conteneur docker-ci
   docker_container:
     name: docker-ci
-    image: ubuntu
+    image: ubuntu:latest
     state: started
     volumes:
       - /data-docker-ci
