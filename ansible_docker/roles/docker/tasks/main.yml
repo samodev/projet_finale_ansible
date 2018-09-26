@@ -23,7 +23,7 @@
   command:  sudo usermod -aG docker stage
 
 - name: Telecharger une image Ubuntu pour docker
-    docker_image:
+    docker_image :
       name: ubuntu
 
 - name: Creer conteneur docker-ci
