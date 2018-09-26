@@ -10,7 +10,7 @@
 - name: Install list of packages
   apt:
     name: "{{ item }}"
-    state: installed
+    state: present
     update_cache: yes
   with_items:
   - apt-transport-https
@@ -18,9 +18,15 @@
   - curl
   - software-properties-common
   - docker-ce
+  - python-pip
+
+- name: installer docker-py
+  command: pip install docker-py
+  become: true
 
 - name: donner le droit sudo a l'utilisateurs stage pour executer docker
-  command: sudo usermod -aG docker stage
+  command: usermod -aG docker stage
+  become: true
 
 - name: Telecharger une image Ubuntu pour docker
   docker_image:
