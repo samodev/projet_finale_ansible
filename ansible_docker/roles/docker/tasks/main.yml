@@ -20,7 +20,7 @@
   - docker-ce
 
 - name: donner le droit sudo a l'utilisateurs stage pour executer docker
-  command:  sudo usermod -aG docker stage
+  command: sudo usermod -aG docker stage
 
 #- name: Telecharger une image Ubuntu pour docker
 #  docker_image:
