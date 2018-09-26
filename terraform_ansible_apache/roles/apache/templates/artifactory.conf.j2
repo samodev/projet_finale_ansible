@@ -1,8 +1,7 @@
-<VirtualHost *:8081>
-    ServerName http://devops-app-001.eastus.cloudapp.azure.com/
-    ServerAdmin samodev1725@gmail.com
-
-    ProxyPass /artifactory http://10.0.2.6:8081/
-    ProxyPassReverse /artifactory http://10.0.2.6:8081/
-    ProxyRequests Off
-</VirtualHost>
+< VirtualHost *:80 >
+        ServerName devops-app-001.eastus.cloudapp.azure.com/artifactory
+        ProxyPreserveHost On
+        ProxyRequests On
+        ProxyPass / http://10.0.2.6/
+        ProxyPassReverse / http://10.0.2.6/
+< /VirtualHost >
