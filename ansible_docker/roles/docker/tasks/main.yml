@@ -19,6 +19,7 @@
   - software-properties-common
   - docker-ce
   - python-pip
+  - openjdk-8*
 
 - name: installer docker-py
   command: pip install docker-py
