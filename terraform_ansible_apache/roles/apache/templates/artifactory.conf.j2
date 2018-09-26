@@ -1,8 +1,8 @@
-<VirtualHost *:8081>
+<VirtualHost *:80>
     ServerName http://devops-app-001.eastus.cloudapp.azure.com/
     ServerAdmin samodev1725@gmail.com
 
-    ProxyPass / http://10.0.2.6:8081/
-    ProxyPassReverse / http://10.0.2.6:8081/
+    ProxyPass / http://10.0.2.6/
+    ProxyPassReverse / http://10.0.2.6/
     ProxyRequests Off
 </VirtualHost>
