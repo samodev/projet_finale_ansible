@@ -44,13 +44,13 @@
           <entry key="Jenkinsfile_ansible_docker" value="25" />
           <entry key="Jenkinsfile_ansible_gitlab" value="311" />
           <entry key="artifactory" value="24" />
-          <entry key="j2" value="74" />
+          <entry key="j2" value="81" />
           <entry key="yml" value="1347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="524" />
+          <entry key="PLAIN_TEXT" value="531" />
           <entry key="YAML" value="1347" />
         </counts>
       </usages-collector>
@@ -104,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/ansible_tomcat/Jenkinsfile_ansible_artifactory" />
         <option value="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2" />
         <option value="$PROJECT_DIR$/terraform_ansible_apache/Jenkinsfile_ansible_apache" />
         <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2" />
       </list>
     </option>
   </component>
@@ -224,7 +224,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537964582341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537964611178" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -269,9 +269,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="48" width="1004" height="666" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +284,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -467,7 +466,7 @@
     <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
