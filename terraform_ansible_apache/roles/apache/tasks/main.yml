@@ -16,8 +16,8 @@
 
 - name: ajout du template
   template:
-    src: artifactory.conf.j2
-    dest: /etc/apache2/sites-available/artifactory.conf
+    src: 000-default.conf.j2
+    dest: /etc/apache2/sites-available/000-default.conf
 
 - name: activation du template artifactory et redémarrage du service
   command: a2ensite artifactory.conf
