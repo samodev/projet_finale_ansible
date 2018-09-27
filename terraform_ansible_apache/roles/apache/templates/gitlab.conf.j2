@@ -1,4 +1,4 @@
-    <VirtualHost *:80>
+
 ProxyRequests     Off
 ProxyPreserveHost On
 RewriteEngine On
@@ -10,4 +10,3 @@ Allow from all
 
 ProxyPass         /gitlab  http://10.0.2.5:81
 ProxyPassReverse  /gitlab  http://10.0.2.5:81
-    </VirtualHost>
