@@ -64,6 +64,7 @@
     openssl req -new -nodes -x509 -subj "{{ gitlab_self_signed_cert_subj }}" -days 3650 -keyout {{ gitlab_ssl_certificate_key }} -out {{ gitlab_ssl_certificate }} -extensions v3_ca
     creates={{ gitlab_ssl_certificate }}
   when: gitlab_create_self_signed_cert
+  become: true
 
 - name: Copy GitLab configuration file.
   template:
