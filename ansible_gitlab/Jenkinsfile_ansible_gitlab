@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('ansible-playbook') {
 			steps {
-				ansiblePlaybook credentialsId: 'cb4c6396-f283-4a3e-94c5-84e64b86f148', playbook: 'ansible_gitlab/installGitlab.yml'
+				ansiblePlaybook become: true, credentialsId: 'cb4c6396-f283-4a3e-94c5-84e64b86f148', playbook: 'ansible_gitlab/installGitlab.yml'
 			}
 		}
 	}
