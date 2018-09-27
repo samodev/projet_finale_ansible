@@ -6,8 +6,14 @@
     name: apache2
     state: latest
 
-- name: enable module proxy on apache
-  command: a2enmod proxy proxy_http
+- name: enable modules
+  apache2_module:
+    state: present
+    name: "{{ item }}"
+  with_items:
+  - proxy
+  - proxy_http
+
 
 - name: start service httpd - if install succeeded
   service:
