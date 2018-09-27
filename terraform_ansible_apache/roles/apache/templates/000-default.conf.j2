@@ -2,8 +2,8 @@
     <VirtualHost *:*>
             ServerAdmin postmaster@domaine.tld
 
-            ProxyPass /artifactory http://10.0.2.6:8081/
-            ProxyPassReverse /artifactory http://10.0.2.6:8081/
+            ProxyPass / http://10.0.2.6:8081/
+            ProxyPassReverse / http://10.0.2.6:8081/
             ProxyPreserveHost On
             ProxyRequests On
 
