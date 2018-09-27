@@ -29,6 +29,10 @@
 - name: changing  access permissions for  tomcat
   shell: chmod -R 777 /opt/apache-tomcat-7.0.61/
 
+- name: Make sure a service is running
+  systemd: state=started name=tomcat
+
+
 #- name: Start Tomcat
 #  service: name=tomcat state=started enabled=yes
   
