@@ -38,7 +38,7 @@
 
 	ProxyPass http://localhost:8080/jenkins nocanon
 	ProxyPassReverse http://localhost:8080/jenkins
-	ProxyPassReverse http://cloud-pic.eastus.cloudapp.azure.com/jenkins
+	ProxyPassReverse http://devops-app-001.eastus.cloudapp.azure.com/jenkins
 	</Location>
 
 
@@ -47,7 +47,7 @@
 
 	ProxyPass http://10.0.2.5/gitlab
 	ProxyPassReverse http://10.0.2.5/gitlab
-	ProxyPassReverse http://cloud-pic.eastus.cloudapp.azure.com/gitlab
+	ProxyPassReverse http://devops-app-001.eastus.cloudapp.azure.com/gitlab
 	</Location>
 
 	<Location /artifactory>
@@ -55,7 +55,7 @@
 
 	ProxyPass http://10.0.2.6:8081/artifactory
 	ProxyPassReverse http://10.0.2.6:8081/artifactory
-	ProxyPassReverse http://cloud-pic.eastus.cloudapp.azure.com/artifactory
+	ProxyPassReverse http://devops-app-001.eastus.cloudapp.azure.com/artifactory
 	</Location>
 
 </VirtualHost>
