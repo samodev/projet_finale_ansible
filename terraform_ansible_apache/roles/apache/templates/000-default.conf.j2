@@ -45,8 +45,8 @@
 	<Location /gitlab>
 	Require all granted
 
-	ProxyPass http://10.0.2.5:8082/gitlab
-	ProxyPassReverse http://10.0.2.5:8082/gitlab
+	ProxyPass http://10.0.2.5/gitlab
+	ProxyPassReverse http://10.0.2.5/gitlab
 	ProxyPassReverse http://devops-app-001.eastus.cloudapp.azure.com/gitlab
 	</Location>
 

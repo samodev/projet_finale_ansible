@@ -2,7 +2,7 @@
 # Default variables for this role
 
 # GitLab configuration
-gitlab_hostname: devops-app-001.eastus.cloudapp.azure.com/gitlab
+gitlab_hostname: http://devops-app-001.eastus.cloudapp.azure.com/gitlab
 gitlab_port: 8082
 
 # Let's Encrypt email address
