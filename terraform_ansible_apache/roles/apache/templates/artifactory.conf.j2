@@ -7,6 +7,8 @@ ProxyPreserveHost On
     # ProxyPass / http://[IP Addr.]:[port]/
     # ProxyPassReverse / http://[IP Addr.]:[port]/
     # Example:
+    ProxyPreserveHost On
+    ProxyRequests On
     ProxyPass /artifactory http://10.0.2.6:8081/
     ProxyPassReverse /artifactory http://10.0.2.6:8081/
 
