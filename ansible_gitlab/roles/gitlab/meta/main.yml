@@ -1,23 +1,18 @@
----
-dependencies: []
-
 galaxy_info:
-  author: geerlingguy
-  description: GitLab Git web interface
-  company: "Midwestern Mac, LLC"
-  license: "license (BSD, MIT)"
-  min_ansible_version: 2.0
+  author: Gaétan
+  description: Install and configure GitLab Community Edition
+
+  license: license (MIT, BSD)
+
+  min_ansible_version: 2.3
+
   platforms:
-  - name: EL
-    versions:
-    - 6
-    - 7
-  - name: Debian
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
+   - name: Linux
+     versions:
+     - all
+
   galaxy_tags:
-    - development
-    - web
+    - linux
+    - gitlab
+
+  dependencies: |
