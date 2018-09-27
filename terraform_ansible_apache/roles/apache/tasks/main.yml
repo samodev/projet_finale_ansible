@@ -18,11 +18,6 @@
   template:
     src: 000-default.conf.j2
     dest: /etc/apache2/sites-available/000-default.conf
-
-- name: activation du template et redémarrage du service
-  command: a2ensite 000-default.conf
-
-- name: reload le service apache
-  command: service apache2 reload
-  become: true
+  notify:
+    - restart apache
 ...
