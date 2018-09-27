@@ -1,7 +1,38 @@
 <VirtualHost *:80>
-	ServerAdmin webmaster@localhost
-	ServerName devops-app-001.eastus.cloudapp.azure.com
-	DocumentRoot /var/www/html
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
+        ServerAdmin localhost@localhost.com
+
+
+       ErrorLog /var/log/apache2/error.log
+
+
+       # Possible values include: debug, info, notice, warn, error, crit,
+        # alert, emerg.
+        LogLevel warn
+
+
+       CustomLog /var/log/apache2/access.log combined
+        ServerSignature On
+
+
+
+        ProxyRequests Off
+        SSLProxyEngine on
+        ProxyPreserveHost On
+
+
+
+        RequestHeader set Front-End-Https "On"
+
+
+       <Location /artifactory>
+        ProxyPass http://10.0.2.6:8081/artifactory
+        ProxyPassReverse http://10.0.2.6:8081/artifactory
+        </Location>
+        <Location /gitlab>
+        ProxyPass http://10.0.2.5:81/gitlab
+        ProxyPassReverse http://10.0.2.5:81/gitlab
+        </Location>
+        CacheDisable *
+
+
 </VirtualHost>
