@@ -1,8 +1,13 @@
     <VirtualHost *:80>
-            ServerAdmin postmaster@domaine.tld
-            ServerName http://devops-app-001.eastus.cloudapp.azure.com
-            ProxyPass /gitlab http://10.0.2.5:81/ retry=0
-            ProxyPassReverse /gitlab http://10.0.2.5:81/
-            ProxyPreserveHost On
-            ProxyRequests On
+ProxyRequests     Off
+ProxyPreserveHost On
+RewriteEngine On
+
+<Proxy http://10.0.2.5:81>
+Order deny,allow
+Allow from all
+</Proxy>
+
+ProxyPass         /gitlab  http://10.0.2.5:81
+ProxyPassReverse  /gitlab  http://10.0.2.5:81
     </VirtualHost>
