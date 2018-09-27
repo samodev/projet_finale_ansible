@@ -1,37 +1,15 @@
-<VirtualHost *:80>
-        ServerAdmin localhost@localhost.com
+    <VirtualHost *:80>
+            ServerAdmin postmaster@domaine.tld
+            ServerName http://devops-app-001.eastus.cloudapp.azure.com
+            ProxyPass /gitlab http://10.0.2.5:81/
+            ProxyPassReverse /gitlab http://10.0.2.5:81/
+            ProxyPreserveHost On
+    </VirtualHost>
 
-
-       ErrorLog /var/log/apache2/error.log
-
-
-       # Possible values include: debug, info, notice, warn, error, crit,
-        # alert, emerg.
-        LogLevel warn
-
-
-       CustomLog /var/log/apache2/access.log combined
-        ServerSignature On
-
-
-
-        ProxyRequests Off
-        ProxyPreserveHost On
-
-
-
-        RequestHeader set Front-End-Https "On"
-
-
-       <Location /artifactory>
-        ProxyPass http://10.0.2.6:8081/artifactory
-        ProxyPassReverse http://10.0.2.6:8081/artifactory
-        </Location>
-        <Location /gitlab>
-        ProxyPass http://10.0.2.5:81/gitlab
-        ProxyPassReverse http://10.0.2.5:81/gitlab
-        </Location>
-        CacheDisable *
-
-
-</VirtualHost>
+    <VirtualHost *:80>
+            ServerAdmin postmaster@domaine.tld
+            ServerName http://devops-app-001.eastus.cloudapp.azure.com
+            ProxyPass / http://10.0.2.6:8081/
+            ProxyPassReverse / http://10.0.2.6:8081/
+            ProxyPreserveHost On
+    </VirtualHost>
