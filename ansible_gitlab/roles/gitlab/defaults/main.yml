@@ -19,7 +19,7 @@ gitlab_self_signed_cert_subj: "/C=US/ST=Missouri/L=Saint Louis/O=IT/CN=gitlab"
 # LDAP Configuration.
 gitlab_ldap_enabled: "false"
 gitlab_ldap_host: "example.com"
-gitlab_ldap_port: "389"
+gitlab_ldap_port: "81"
 gitlab_ldap_uid: "sAMAccountName"
 gitlab_ldap_method: "plain"
 gitlab_ldap_bind_dn: "CN=Username,CN=Users,DC=example,DC=com"
