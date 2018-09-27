@@ -73,4 +73,5 @@
     owner: root
     group: root
     mode: 0600
+  become: true
   notify: restart gitlab
