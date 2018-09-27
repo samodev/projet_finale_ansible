@@ -14,7 +14,6 @@
   - proxy
   - proxy_http
 
-
 - name: start service httpd - if install succeeded
   service:
     name: apache2
@@ -24,6 +23,9 @@
   template:
     src: 000-default.conf.j2
     dest: /etc/apache2/sites-available/000-default.conf
-  notify:
-    - restart apache
+
+
+- name: reload le service apache
+  command: service apache2 reload
+  become: true
 ...
