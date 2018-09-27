@@ -33,7 +33,7 @@
 	AllowEncodedSlashes NoDecode
 
 
-	<Location /jenkins >
+	<Location /jenkins>
 	Require all granted
 
 	ProxyPass http://localhost:8080/jenkins nocanon
@@ -42,7 +42,7 @@
 	</Location>
 
 
-	<Location /gitlab >
+	<Location /gitlab>
 	Require all granted
 
 	ProxyPass http://10.0.2.5/gitlab
@@ -59,8 +59,3 @@
 	</Location>
 
 </VirtualHost>
-
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
-
-
-
