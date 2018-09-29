@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/orange_mecanique_ansible.iml" filepath="$PROJECT_DIR$/.idea/orange_mecanique_ansible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projet_finale_ansible.iml" filepath="$PROJECT_DIR$/projet_finale_ansible.iml" />
     </modules>
   </component>
 </project>

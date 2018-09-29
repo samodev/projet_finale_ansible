@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
+    <list default="true" id="a1da947c-4b6b-4ec7-bd2e-683767760f98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/orange_mecanique_ansible.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,128 +16,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1543840895">
+    <session id="374781990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Jenkinsfile_ansible_apache" value="1" />
-          <entry key="Jenkinsfile_ansible_artifactory" value="3" />
-          <entry key="Jenkinsfile_ansible_docker" value="3" />
-          <entry key="Jenkinsfile_ansible_gitlab" value="1" />
-          <entry key="artifactory" value="1" />
-          <entry key="j2" value="2" />
-          <entry key="md" value="1" />
-          <entry key="yml" value="33" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="YAML" value="33" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile_ansible_apache" value="48" />
-          <entry key="Jenkinsfile_ansible_artifactory" value="42" />
-          <entry key="Jenkinsfile_ansible_docker" value="25" />
-          <entry key="Jenkinsfile_ansible_gitlab" value="311" />
-          <entry key="artifactory" value="24" />
-          <entry key="j2" value="268" />
-          <entry key="yml" value="1347" />
+          <entry key="yml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="718" />
-          <entry key="YAML" value="1347" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-=======
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/Jenkinsfile_ansible_apache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/installApache.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/artifactoryInstallation.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="530">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
->>>>>>> master
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/terraform_ansible_apache/roles/apache/template</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,116 +64,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tests/test.yml" />
-        <option value="$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml" />
-        <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/files/artifactory" />
-        <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/artifactory.yml" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/Jenkinsfile_ansible_artifactory" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/artifactoryInstallation.yml" />
-        <option value="$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker" />
-        <option value="$PROJECT_DIR$/ansible_docker/docker.yml" />
-        <option value="$PROJECT_DIR$/ansible_docker/roles/docker/vars/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_tomcat/tomcat.yml" />
-        <option value="$PROJECT_DIR$/ansible_tomcat/Jenkinsfile_ansible_artifactory" />
-        <option value="$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/terraform_ansible_apache/Jenkinsfile_ansible_apache" />
-        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="48" />
-    <option name="width" value="1004" />
-    <option name="height" value="666" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
+    <option name="y" value="47" />
+    <option name="width" value="1313" />
+    <option name="height" value="787" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="projet_finale_ansible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_finale_ansible" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
             <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="projet_finale_ansible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_finale_ansible" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
+              <item name="projet_finale_ansible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_finale_ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
+              <item name="projet_finale_ansible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_finale_ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
+              <item name="projet_finale_ansible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_finale_ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_docker" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="orange_mecanique_ansible" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange_mecanique_ansible" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ansible_apache" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
->>>>>>> master
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537956368284" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537956081117" />
->>>>>>> master
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537969740841" />
-    <property name="last_opened_file_path" value="$USER_HOME$/orange_mecanique_app" />
->>>>>>> master
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ansible_tomcat" />
-      <recent name="$PROJECT_DIR$/ansible_docker" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538230892253" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,241 +140,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ff014a0-d686-4ee4-92c1-9e80d56ffcc5" name="Default Changelist" comment="" />
-      <created>1537865150230</created>
+      <changelist id="a1da947c-4b6b-4ec7-bd2e-683767760f98" name="Default Changelist" comment="" />
+      <created>1538230344964</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537865150230</updated>
+      <updated>1538230344964</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="48" width="1004" height="666" extended-state="0" />
+    <frame x="77" y="47" width="1313" height="787" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625523" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33015266" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tests/test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/templates/gitlab.rb.j2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/meta/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/handlers/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/defaults/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/environment/dev/inventory.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/files/artifactory">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/artifactory.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/vars/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="100" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_docker/vars/main.yml" />
-    <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_artifactory" />
-    <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/distribution-checks.yml" />
-    <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/compatibility-checks.yml" />
-    <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/checks.yml" />
-    <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/vars/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/vars/Debian.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/roles/gitlab/vars/RedHat.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/Jenkinsfile_ansible_artifactory">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_docker/docker.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_docker/roles/docker/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="530">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_artifactory/roles/artifactory/tasks/artifactoryInstallation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_tomcat/Jenkinsfile_ansible_artifactory">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="132" selection-start-line="10" selection-start-column="132" selection-end-line="10" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_tomcat/tomcat.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_tomcat/roles/tomcat/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_docker/Jenkinsfile_ansible_docker">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/Jenkinsfile_ansible_apache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/installApache.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ansible_apache/roles/apache/templates/artifactory.conf.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -29,14 +29,18 @@
   command: usermod -aG docker stage
   become: true
 
-- name: Telecharger une image Ubuntu pour docker
+- name: Telecharger une image Ubuntu/maven/jdk pour docker
   docker_image:
-    name: ubuntu
+    name: goyalzz/ubuntu-java-8-maven-docker-image
+
+- name: Telecharger une image Ubuntu/ansible pour docker
+  docker_image:
+    name: geerlingguy/docker-ubuntu1604-ansible
 
 - name: Creer conteneur docker-ci
   docker_container:
     name: docker-ci
-    image: ubuntu
+    image: goyalzz/ubuntu-java-8-maven-docker-image
     state: started
     volumes:
       - /data-docker-ci
@@ -44,7 +48,7 @@
 - name: Creer conteneur docker-cd
   docker_container:
     name: docker-cd
-    image: ubuntu
+    image: geerlingguy/docker-ubuntu1604-ansible
     state: started
     volumes:
       - /data-docker-cd
